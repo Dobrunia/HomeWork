@@ -1,26 +1,48 @@
 .message {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    height: 60px;
+    position: relative;
+    margin-top: 50px;
 }
 
-.imageAndText {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+.imageAndText {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .imageAndText img {
+    order: 2;
     width: 48px;
     height: 48px;
+    margin-left: 10px;
 }
 
 .text {
+    height: 60px;
+    padding: 10px;
+    text-align: end;
+    border-radius: 10px;
     background: #0066CC;
     box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
 }
 
 .text:after {
-
+    content: "";
+    position: absolute;
+    right: 43px;
+    bottom: 0px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid #0066CC;
+    border-bottom: 11px solid #0066CC;
+    border-right: 16px solid transparent;
 }
 
 .name {
@@ -28,9 +50,8 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
     color: #FFFFFF;
-    
+
 }
 
 .messageText {
@@ -38,10 +59,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 
 .time {
-
+    position: absolute;
+    right: 10px;
+    bottom: -12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
 }
