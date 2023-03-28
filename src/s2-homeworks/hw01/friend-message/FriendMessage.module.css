@@ -6,6 +6,7 @@
     height: 60px;
     position: relative;
     margin-top: 50px;
+    margin-left: 5px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
