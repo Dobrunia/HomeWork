@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Dobrunia/HomeWork.git/static/css/main.69435c63.css",
-    "main.js": "/Dobrunia/HomeWork.git/static/js/main.19c2fd55.js",
-    "static/js/787.66cb4309.chunk.js": "/Dobrunia/HomeWork.git/static/js/787.66cb4309.chunk.js",
-    "static/media/avatar.png": "/Dobrunia/HomeWork.git/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/Dobrunia/HomeWork.git/index.html",
-    "main.69435c63.css.map": "/Dobrunia/HomeWork.git/static/css/main.69435c63.css.map",
-    "main.19c2fd55.js.map": "/Dobrunia/HomeWork.git/static/js/main.19c2fd55.js.map",
-    "787.66cb4309.chunk.js.map": "/Dobrunia/HomeWork.git/static/js/787.66cb4309.chunk.js.map"
+    "main.css": "/HomeWork/static/css/main.69435c63.css",
+    "main.js": "/HomeWork/static/js/main.b10db7ba.js",
+    "static/js/787.66cb4309.chunk.js": "/HomeWork/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/HomeWork/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/HomeWork/index.html",
+    "main.69435c63.css.map": "/HomeWork/static/css/main.69435c63.css.map",
+    "main.b10db7ba.js.map": "/HomeWork/static/js/main.b10db7ba.js.map",
+    "787.66cb4309.chunk.js.map": "/HomeWork/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69435c63.css",
-    "static/js/main.19c2fd55.js"
+    "static/js/main.b10db7ba.js"
   ]
 }
