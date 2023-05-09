@@ -1,4 +1,9 @@
 .radio {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
 }
 
 .radio::before {
@@ -9,7 +14,12 @@
 }
 
 .label {
+    
 }
 
 .options {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
 }
